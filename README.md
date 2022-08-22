@@ -34,7 +34,7 @@ O código foi escrito a partir do paradigma de Programação Orientada à Objeto
 - Mostra todos os clientes cadastrados.
 
 * GET  https://bemol-cadastro.herokuapp.com/user/allUsers
-Content-Type: application/json
+* Content-Type: application/json
 
 ![image](https://user-images.githubusercontent.com/80565676/186037259-dddc3a53-2ec0-4ab8-bffc-cd63b4d37506.png)
 
@@ -42,7 +42,7 @@ Content-Type: application/json
 -Criar cadastro.
 
 * POST https://bemol-cadastro.herokuapp.com/user/createUser
-Content-Type: application/json
+* Content-Type: application/json
 
 {
    "name": "veronica bitencourt", 
@@ -62,9 +62,10 @@ Content-Type: application/json
 - Editar Cadastro.
 
 * PUT  https://bemol-cadastro.herokuapp.com/user/edit/:id
- 
+ * Content-Type: application/json
 Exemplo:
 * PUT  https://bemol-cadastro.herokuapp.com/user/edit/1661189015439
+* * Content-Type: application/json
 
 {  
    "name": "Keven Kauan Bitencourt", 
