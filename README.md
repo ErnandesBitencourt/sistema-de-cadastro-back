@@ -46,9 +46,13 @@ Content-Type: application/json
 
 {
    "name": "veronica bitencourt", 
+   
    "age": 25, 
+   
    "email": "veronica@gmail.com" ,
+   
    "address": "69099782",
+   
    "house":75
 }
 
@@ -63,11 +67,14 @@ Exemplo:
 * PUT  https://bemol-cadastro.herokuapp.com/user/edit/1661189015439
 
 {  
-   
    "name": "Keven Kauan Bitencourt", 
+   
    "age": 25, 
+   
    "email": "kevenkauan@gmail.com" ,
+   
    "address": "69099782",
+   
    "house":50
 }
 
