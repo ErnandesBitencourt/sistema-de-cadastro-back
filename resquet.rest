@@ -1,0 +1,51 @@
+
+
+//Mostras todos os clientes cadatrados//
+GET  https://bemol-cadastro.herokuapp.com/user/allUsers
+Content-Type: application/json
+
+###
+
+
+//Criar Cliente//
+POST https://bemol-cadastro.herokuapp.com/user/createUser
+Content-Type: application/json
+
+{
+   "name": "Veronica Souza ", 
+   "age": 26, 
+   "email": "veronica@gmail.com" ,
+   "address": "69099782",
+   "house":75
+}
+
+###
+
+//Editar Cliente//
+PUT  https://bemol-cadastro.herokuapp.com/user/edit
+Content-Type: application/json
+
+{  
+   "id":"1660950687618",
+   "name": "Doglas Souza", 
+   "age": 21, 
+   "email": "dolgas@gmail.com" ,
+   "address": "69099782",
+   "house":50
+}
+
+###
+
+//Deletar Cliente//
+DELETE   https://bemol-cadastro.herokuapp.com/user/deleteUser/1660945325562
+Content-Type: application/json
+
+
+
+
+
+
+
+
+
+
