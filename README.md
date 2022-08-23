@@ -23,11 +23,13 @@ O código foi escrito a partir do paradigma de Programação Orientada à Objeto
 
 - Node.Js
 - TypeScript
+- axios
 - Knex
 - MySQL
 - Express
 - Cors
 - Deploy feito no Heroku
+- ViaCep API para pegar o endereço  
 
 ### Documentação da API 
 
@@ -44,7 +46,7 @@ O código foi escrito a partir do paradigma de Programação Orientada à Objeto
 * POST https://bemol-cadastro.herokuapp.com/user/createUser
 * Content-Type: application/json
 
-{
+body{
    "name": "veronica bitencourt", 
    
    "age": 25, 
@@ -67,7 +69,8 @@ Exemplo:
 * PUT  https://bemol-cadastro.herokuapp.com/user/edit/1661189015439
 * * Content-Type: application/json
 
-{  
+
+body{  
    "name": "Keven Kauan Bitencourt", 
    
    "age": 25, 
