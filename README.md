@@ -16,7 +16,7 @@ O código foi escrito a partir do paradigma de Programação Orientada à Objeto
 - Criar cadastro
 - Lista de clientes cadastrados 
 - Editar cadatro
-- Deleatar cadastro
+- Deletar cadastro
 
 
 ### Tecnologias Utilizadas:
